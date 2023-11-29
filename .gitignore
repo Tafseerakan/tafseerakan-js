@@ -1,24 +1,30 @@
-/node_modules/
- 
+# Dependency directories
+node_modules/
+
+# Logs
+logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Build output
 dist/
+build/
 
-# Yarn
-.cache
-.yarnrc
-.yarn/cache/
-.yarn/*
-!.yarn/patches
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
-.pnp.*
-*.tgz
+# IDE files
+.vscode/
+.idea/
 
-website/.yarn/
-docs/.yarn/
+# Temporary files
+*.tmp
+*.temp
+*.swp
 
-# yalc
-.yalc
-yalc.lock
- 
+# Miscellaneous
+npm-debug.log*
+yarn-error.log*
