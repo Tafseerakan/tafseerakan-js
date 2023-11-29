@@ -1,0 +1,24 @@
+node_modules/
+ 
+dist/
+
+# Yarn
+.cache
+.yarnrc
+.yarn/cache/
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+*.tgz
+
+website/.yarn/
+docs/.yarn/
+
+# yalc
+.yalc
+yalc.lock
+ 
