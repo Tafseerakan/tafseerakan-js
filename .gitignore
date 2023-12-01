@@ -12,9 +12,9 @@ Thumbs.db
 # Environment variables
 .env
 
-# Build output
+# Build directories
 dist/
-build/
+
 
 # IDE files
 .vscode/
