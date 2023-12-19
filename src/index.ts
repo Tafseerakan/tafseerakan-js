@@ -1,1 +1,1 @@
-export { default as translations } from './translations/index.js';
+export { default as getTranslations } from './getTranslations/index.js';
