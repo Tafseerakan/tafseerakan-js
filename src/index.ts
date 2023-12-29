@@ -1,1 +1,4 @@
-export { default as getTranslations } from './getTranslations/index.js';
+import getTranslations from './getTranslations/index.js';
+import useTranslations from './utils/hooks/useTranslations.js';
+
+export { useTranslations, getTranslations };
